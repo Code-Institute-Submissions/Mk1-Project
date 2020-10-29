@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 
-.p-b {
+.pad-bot {
     padding-bottom: 80px;
     margin-bottom: 80px;
 }
@@ -94,7 +94,7 @@ body {
 
 .dropdown:hover .dropbtn {color: #867f7f;}
 
-/*------------------------------------homepage body */
+/*------------------------------------homepage body--------------------- */
 
 .whitespace {
     color: #ffffff;
@@ -107,7 +107,7 @@ body {
     width: 100%;
 }
 
-/*-----------------------------------------------banner info--------------------------------*/
+/*----------banner info-----------------*/
 
 .notes{
   background-image: url("assets/images/logo2.jpg");
@@ -129,7 +129,7 @@ body {
   justify-content: center;
 }
 
-/*-----------------------------------------------banner info end--------------------------------*/
+/*---------banner info end------------------*/
 .carousel-inner div img {
    
    background-position: center;
@@ -165,7 +165,7 @@ body {
 }
 
 
-/*------------------------------------recipe mainpage */
+/*------------------------------------recipe mainpage-------------------- */
 .recipe-img {
     padding: 30px;
 }
@@ -182,12 +182,20 @@ body {
     padding: 30px;  
     margin: 30px;
 }
+@media only screen and (min-width: 1024px), {
+  .boxed {height: 390px;
+  }
+}
+@media only screen and (min-width: 1315px), {
+  .boxed {height: 480px;
+  }
+}
 
 .nav-tabs {
     padding-bottom: 5px;
 }
 
-/*------------------------------------Form----------- */
+/*------------------------------------Form-------------------------------- */
 
 .button {
   transition-duration: 0.4s;
@@ -199,7 +207,7 @@ body {
 }
 
 
-/*------------------------------------Scrollbar */
+/*------------------------------------Scrollbar--------------------------*/
 
 ::-webkit-scrollbar {
     width: 5px;
@@ -216,7 +224,7 @@ body {
 }
 
 
-/*------------------------------------Footer */
+/*------------------------------------Footer--------------------- */
 
 
 .footer-spacing {
