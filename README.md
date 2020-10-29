@@ -41,6 +41,10 @@ The navigation menu will contain dropdown link allowing for expansion of pages b
 
 The site will be fully responsive and optimized to be viewed on different screen sizes and devices.
 
+## WireFrames
+
+The original wireframe concept  is available through assets/wireframes/Mk1 Project - peter freemantle.bmpr
+
 ## Basic features
 
 * Multiple pages with nav bar to the different pages and sections.
