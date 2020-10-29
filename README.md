@@ -1,45 +1,110 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Catering & Events by Peter Freemantle
 
-Welcome SdMusic,
+![readme-img](assets/images/readme-img.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## Deployed version
 
-## Gitpod Reminders
+https://evert-r.github.io/milestone-one
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+This site will be an ongoing page, designed with javascript elements in  mind for implementation.
 
-`python3 -m http.server`
+Initial creation is for my First milestone project on the Code Institute (https://codeinstitute.net/) Full Stack Developer course, with the goal of representing my html and css skills inline with showing my experience in other sectors and previous experience.
 
-A blue button should appear to click: *Make Public*,
+## UX
 
-Another blue button should appear to click: *Open Browser*.
+For who this website is created
+This Webiste was created for the former Event catering group “GingerNut Catering Ltd”
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### At who this website is targeted
 
-A blue button should appear to click: *Make Public*,
+This website is targeted at high disposable income individuals and companies  in.between their 30’s and 70’s in the united kingdom, looking for private catering.
+Which language is used and why
+Though the united kingdom is a multicultural country, the website has been put in English as it is the predominate language.
 
-Another blue button should appear to click: *Open Browser*.
+### What is the goal to achieve with this website
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The goal is to provide a concise platform offering information on the services available and provide a marketing platform with contact links are available for information requests and bookings.
 
-## Updates Since The Instructional Video
+### User stories
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+As a potential event organiser  who has a rough idea of what im looking for I would want to be able to find out where I can sample the offering be able to contact the services provider to ask about the request that I have.
+I would also be looking to see images of what was on offer and to keep up to date with any upcoming events I could attend.
+It needs to be straight forward so I do not feel out of my depth and be able to see if they have the services I am looking for that would be identifiable after entering the website off a google search.
+As a user who already bought the record I want to be able to stream or download the music and listen to it everywhere I want. I'll also want to see the video of the releaseparty and be notified of any future projects.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Concept
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+This will be a multiple pages website, home page will be an image carousel showing  the service, product and branded images. A banner with download links underneath with fixed header containing a text banner and navigation bar. Footer will be fixed at the bottom of the page with contact phone numbers and social network links.
+The header will keep the banner in both desktop and mobile. In desktop the links will keep across full screen but move to a burger icon when in mobile allowing for the content to be kept clear and visible.
+The navigation menu will contain dropdown link allowing for expansion of pages by leading to some of the page pages broken down by id tags. The nav menu will have active screens set allowing the user to know where they are in the site.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+The site will be fully responsive and optimized to be viewed on different screen sizes and devices.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Basic features
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* Multiple pages with nav bar to the different pages and sections.
+* Sticky top menu, for  easy naviagtion.
+* Footer and download Menu with icons for an intuitive design with an alternative for visual impaired people.
+* Icons screen.
+* Mouse-hover tooltips for icons and links.
+* Custom scroll bar for scrolling for recipe page items.
+* Carousel on homepage to catch the eye.
+* Fully responsive design.
+* Burger icon with drop down for smaller screens
+* Youtube and google maps embedded in locations page for directions and examples of what is to be seen at the locations.
+* Download section for the sample menus.
+* Cover-art section to showcase the album-art.
+* Footer with credits and links to contributers to both the website as the record.
+* Form to contact for further information and requests.
+* In this release the form will do nothing but reload the page, as its functionality is out of the scope of this project.
+* Optional Features to be implemented later
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Technologies Used
 
---------
+HTML, or Hyper Text Markup Language: Used to construct all the pages of this web site. For further info on this language;
+https://developer.mozilla.org/en-US/docs/Web/HTML
 
-Happy coding!
+CSS, or Cascading Style Sheets: Is used to style various elements on a web page via coloring, fonts, spacing, etc. For further info, see this link; https://www.w3.org/Style/CSS/Overview.en.html
+
+Bootstrap: Bootstrap is a potent front-end framework used to create modern websites and web apps. It's open-source and free to use, yet features numerous HTML and CSS templates for UI interface elements such as buttons and forms. Bootstrap also supports JavaScript extensions. https://getbootstrap.com/
+
+Gitpod: An online IDE which streamlines developer workflows by providing prebuilt, collaborative development environments in your browser - powered by VS Code. it does not have to be installed on your PC. https://www.gitpod.io/
+
+GitHub: a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. ... You'll create your own Hello World repository and learn GitHub's Pull Request workflow, a popular way to create and review code. https://github.
+
+Chrome DevTools: Web developer tools built directly into the Google Chrome browser. I used these tools at every step to test the functionality of my code. https://developers.google.com/web/tools/chrome-devtools
+
+W3C Markup Validation Service Used to run all html and css code through a validation to identif if the code meets current standards and wether or not it is showing errors. https://validator.w3.org/ https://jigsaw.w3.org/css-validator/validator
+
+## Testing
+
+I used http://ami.responsivedesign.is/ (source for top picture) to see how the site displays on ranging devices and their viewports, all pages, links, icons performed as expected on all devices.
+
+##Content
+Technology Software descriptions sourced from google.
+
+Fontawesome for icon styling; https://https://fontawesome.com/
+
+Google Fonts for font styles; https://fonts.google.com/
+
+favicon icon created at; https://https://www.ionos.co.uk/tools/favicon-generator
+
+##Media
+
+Google Images using license free search tool, for carousell images; https://google.com/imghp?hl=EN
+
+
+Am I Responsive web site for checking responsiveness on different platforms and for image at top of page; http://ami.responsivedesign.is/
+
+
+Code example resource; https://stackoverflow.com/ 
+
+## Acknowledgements
+
+My mentor Adegbenga Adeye for his guidance over the course of this project, with aesthetic decisions and advice. 
+
+## Errors & Upcoming Updates:
+
+-video player to open in a smaller middle screen when clicked to be applied using javascript
+-responsive design does not match height for columns on all viewports for the recipe page this will be resolved with a javascript update.
