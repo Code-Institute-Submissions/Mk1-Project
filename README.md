@@ -85,7 +85,9 @@ W3C Markup Validation Service Used to run all html and css code through a valida
 
 I used http://ami.responsivedesign.is/ (source for top picture) to see how the site displays on ranging devices and their viewports, all pages, links, icons performed as expected on all devices.
 
-##Content
+I also used a small pool of 15people fitting the target demographic for design testing.
+
+## Content
 Technology Software descriptions sourced from google.
 
 Fontawesome for icon styling; https://https://fontawesome.com/
@@ -94,7 +96,7 @@ Google Fonts for font styles; https://fonts.google.com/
 
 favicon icon created at; https://https://www.ionos.co.uk/tools/favicon-generator
 
-##Media
+## Media
 
 Google Images using license free search tool, for carousell images; https://google.com/imghp?hl=EN
 
@@ -110,5 +112,5 @@ My mentor Adegbenga Adeye for his guidance over the course of this project, with
 
 ## Errors & Upcoming Updates:
 
+-hide id left in place for java script update.
 -video player to open in a smaller middle screen when clicked to be applied using javascript
--responsive design does not match height for columns on all viewports for the recipe page this will be resolved with a javascript update.
