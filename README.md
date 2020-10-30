@@ -43,7 +43,7 @@ The site will be fully responsive and optimized to be viewed on different screen
 
 ## WireFrames
 
-The original wireframe concept  is available through assets/wireframes/Mk1 Project - peter freemantle.bmpr
+The original wireframe concept  is available <a href= "assets/wireframes/Mk1 Project - peter freemantle.pdf" target="_blank">Here</a> and in assets/wireframes/Mk1 Project - peter freemantle.pdf
 
 ## Basic features
 
