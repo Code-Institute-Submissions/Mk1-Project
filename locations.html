@@ -19,7 +19,7 @@
 </head>
 
 <body>
-	<!--  Start of Header  -->
+	<!----------------------------------------Start of Header-------------------------------------->
 	<header class="bg-grey">
 		<div class="banner">
 			<p class="m-0">
@@ -27,8 +27,8 @@
 				our mailing list!
 			</p>
 		</div>
-		<!--  Start of Navbar  -->
-		<nav class="sticky-top bg-teal navbar navbar-expand-lg navbar-light">
+		<!----------------------------------------Start of Navbar-------------------------------------->
+		<nav class="fixed-top bg-teal navbar navbar-expand-lg navbar-light">
 			<a class="navbar-brand" href="#"></a>
 			<button
           class="navbar-toggler"
@@ -53,9 +53,9 @@
 							Recipes
 						</a>
 						<div class="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="recipes.html">Starters</a>
-							<a class="dropdown-item" href="recipes.html#mains">Mains</a>
-							<a class="dropdown-item" href="recipes.html#desserts">Desserts</a>
+							<a class="dropdown-item" href="starters.html">Starters</a>
+                <a class="dropdown-item" href="mains.html">Mains</a>
+                <a class="dropdown-item" href="desserts.html">Desserts</a>
 						</div>
 					</li>
 					<li class="nav-item">
@@ -76,88 +76,101 @@
 			</div>
 		</nav>
 	</header>
-	<!--  End of Header and Navbar Start of Row 1 2 column  -->
-	<div class="container">
-		<section>
-			<div class="row bg-grey">
-				<div class="col-lg-6 col-sm-12">
-					<img
-              class="recipe-img img-fluid w-100 h-100"
-              src="assets/images/head-office.jpg"
-              alt="Torched mackerel, blood orange & puffed grains"
-            />
-          </div>
-					<div class="col-lg-6 col-sm-12 recipe-img">
-						<h3>Head Office</h3>
-						<div id="headoffice">
-							<ul class="nav nav-tabs">
-								<li class="active">
-									<a onclick="myFunction()" class="recipebtn" data-toggle="tab"
-										href="#starter-ing">Our Story</a>
-								</li>
-								<li>
-									<a class="recipebtn" data-toggle="tab" href="#starter-meth">Location</a>
-								</li>
-							</ul>
-							<p id="hide">
-								""We had this dish for our wedding dinner it was amazing!! If
-								only we got to eat like that every day!" Jannet Eddwards"
-							</p>
+	<!----------------------------------------End of Header and Navbar Start of Row 1 2 column-------------------------------------->
+	<section class="px-5 mx-5 mobile-padding">
+    <h1 class="text-center pt-3">Head Office</h1>
+    <div class="row"><hr>
+            <div class="col-lg-5 col-sm-6">
+            <img
+                class="pic-shadow w-100 h-75 img-fluid"
+                src="assets/images/head-office.jpg"
+                alt="Torched mackerel, blood orange & puffed grains"
+                /><hr class="mobile">
+            </div>
+            <div class="col-lg-7 col-sm-6">
+                <div class="boxed overflow-auto tab-cont">
+                    
+                    <div id="headoffice">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item active">
+                        <a class="nav-link" data-toggle="tab" href="#info1"
+                            >Our Story</a
+                        >
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#demo1"
+                            >Location</a
+                        >
+                        </li>
+                    </ul>
 
-							<div class="tab-content">
-								<div id="starter-ing" class="tab-pane fadeIn active">
-									<h3>Our Story</h3>
+                    <div class="tab-content overflow-auto">
+                        <div id="info1" class="tab-pane fadeIn active">
+                        <h3>Our Story</h3>
 									<p>Established in 2014 this small events team has grown and has been providing
 										events service seemlesly to date.
 										We are a shropshire based service catering to all.</p>
-								</div>
-								<div id="starter-meth" class="tab-pane fade">
-									<h3>Location</h3>
-									<ul>
-										<li>cook it</li>
-										<li>plate it</li>
-										<li>taste it</li>
-										<li>love it</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-		</section>
-		<!--  End of Row 1 2 column Start of Row 2 2 column  -->
-		<section>
-			<div class="row">
-				<div class="col-lg-6 col-sm-12 order-lg-last">
-					<iframe class="recipe-img img-fluid"
+                        </div>
+                        <div id="demo1" class="tab-pane fade">
+                        <h5>Method</h5>
+                        <ul>
+                                <li>Risotto Base
+                                    <ul>
+                                        <li>Sweat shallots in butter until soften,</li>
+                                        <li>Add rice. Toast rice until too hot too hold. Add 750ml of the wine to start.</li>
+                                        <li>Put a timer on for 14 minutes. Once an emulsion is formed, added the remaining wine and cook out on a gentle heat</li>
+                                        <li>Once the wine has been absorbed, start to add the hot vegetable nage and stir constantly and continue to cook.</li>
+                                        <li>When the timer reaches 5 minutes stop adding vegetable stock and start to ‘dry’ the base out. Pour onto flat trays and blast chill.</li>
+                                    </ul>
+                                </li>
+                                
+                            
+                        </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div><hr>
+            <h1 class="text-center">Nottingham Food Festival</h1>
+        <div class="row"><hr>
+            <div class="col-lg-5 col-sm-6">
+            <iframe class="pic-shadow img-fluid"
 						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2404.052221280102!2d-1.2119626841765543!3d52.94748337989729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879e9fa4df6e8ff%3A0xc2c9eb0856371845!2sWollaton%20Hall%2C%20Gardens%20and%20Deer%20Park!5e0!3m2!1sen!2suk!4v1600951922848!5m2!1sen!2suk"
 						width="600" height="450" frameborder="0" style="border: 0;" allowfullscreen=""
 						aria-hidden="false" tabindex="0"></iframe>
-					<iframe class="recipe-img img-fluid" width="853" height="480"
+					<iframe class="pic-shadow img-fluid" width="853" height="480"
 						src="https://www.youtube.com/embed/vxF1n96cpHU" frameborder="0"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 						allowfullscreen></iframe>
-				</div>
-				<div class="col-lg-6 col-sm-12 order-lg-first recipe-img">
-					<h3>Nottingham Food festival</h3>
-					<div id="popuprest">
-						<ul class="nav nav-tabs">
-							<li class="active">
-								<a class="recipebtn" data-toggle="tab" href="#main-ing">Information</a>
-							</li>
-							<li>
-								<a class="recipebtn" data-toggle="tab" href="#main-meth">Demo times</a>
-							</li>
-						</ul>
-						<div class="tab-content">
-							<div id="main-ing" class="tab-pane fadeIn active">
-								<h5>Information</h5>
+                <hr class="mobile">
+            </div>
+            <div class="col-lg-7 col-sm-6">
+                <div class="boxed overflow-auto tab-cont">
+                    
+                    <div id="popuprest">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item active">
+                        <a class="nav-link" data-toggle="tab" href="#info2"
+                            >Information</a
+                        >
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#demo2"
+                            >Demo Times</a
+                        >
+                        </li>
+                    </ul>
+
+                    <div class="tab-content overflow-auto">
+                        <div id="info2" class="tab-pane fadeIn active">
+                        <h5>Information</h5>
                                     <p>The Nottingham Food & Drink Festival, set in the spectacular Wollaton Park in Nottingham, promises to be an event not to be missed for specialist food and drink enthusiasts.
 
                                     The festival’s ‘Super Theatre’ plans to give a series of entertaining and instructive live cookery demonstrations throughout the weekend, with a superb line up of celebrity chefs, who will bring an intriguing selection of international food backgrounds and influences to the show. For more information visit <a href="https://www.visit-nottinghamshire.co.uk/whats-on/nottingham-food-festival-2020-p518471" target="blank">Nottingham Food festival's site.</a> </p>
-							</div>
-							<div id="main-meth" class="tab-pane fadeIn">
-								<h5>Demo Times</h5>
+                        </div>
+                        <div id="demo2" class="tab-pane fade">
+                        <h5>Demo Times</h5>
 								<ul>
 									<li>Saturday
                                         <ul>
@@ -172,59 +185,63 @@
                                         </ul>
                                     </li>
 								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--  End of Row 2 2 column Start of Row 3 2 column  -->
-		<section>
-			<div class="row bg-grey">
-				<div class="col-lg-6 col-sm-12">
-					<iframe class="recipe-img img-fluid"
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div><hr>
+            <h1 class="text-center">Digbeth Dining Club</h1>
+        <div class="row">
+        <hr>
+            <div class="col-lg-5 col-sm-6">
+            <iframe class="pic-shadow img-fluid"
 						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2430.2073521638094!2d-1.884788984194194!3d52.47538127980578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bc80688218c5%3A0x71667e11a8a7a7e6!2sDigbeth%20Dining%20Club!5e0!3m2!1sen!2suk!4v1600875283087!5m2!1sen!2suk"
 						width="600" height="450" frameborder="0" style="border: 0;" allowfullscreen=""
 						aria-hidden="false" tabindex="0"></iframe>
-					<iframe class="recipe-img img-fluid" width="853" height="480"
+					<iframe class="pic-shadow img-fluid" width="853" height="480"
 						src="https://www.youtube.com/embed/lVfu4ppMhmA" frameborder="0"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen></iframe>
-				</div>
-				<div class="col col-lg-6 col-sm-12 recipe-img">
-					<h3>Digbeth Dining Club</h3>
-					<div id="popupevents">
-						<ul class="nav nav-tabs">
-							<li class="active">
-								<a class="recipebtn" data-toggle="tab" href="#dessert-ing">Event Info</a>
-							</li>
-							<li>
-								<a class="recipebtn" data-toggle="tab" href="#dessert-meth">Booking Info</a>
-							</li>
-						</ul>
+						allowfullscreen></iframe><hr class="mobile">
+            </div>
+            <div class="col-lg-7 col-sm-6">
+                <div class="boxed overflow-auto tab-cont">
+                    
+                    <div id="popupevents">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item active">
+                        <a class="nav-link" data-toggle="tab" href="#info3"
+                            >Information</a
+                        >
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#demo3"
+                            >Demo Times</a
+                        >
+                        </li>
+                    </ul>
 
-						<div class="tab-content">
-							<div id="dessert-ing" class="tab-pane fadeIn active">
-								<h5>Event Information</h5>
+                    <div class="tab-content overflow-auto">
+                        <div id="info3" class="tab-pane fadeIn active">
+                        <h5>Event Information</h5>
 									<p>Founded in 2012, Digbeth Dining Club is a multi award-winning street food event that has transformed the city's food landscape by turning some of the Midlands most unique venues, into vibrant, street food destinations.
  
 
 Within just a year of starting, Digbeth Dining Club had been voted Britain’s Best Street Food Event, and since has gone on to host events all around the Midlands, establishing itself in the region as pioneers of street food. For more information visit <a href="https://www.digbethdiningclub.com/" target="blank">Digbeth Dining Club's website</a></p>
-							</div>
-							<div id="dessert-meth" class="tab-pane fade">
-								<h5>Booking Information</h5>
+                        </div>
+                        <div id="demo3" class="tab-pane fade">
+                        <h5>Booking Information</h5>
 									<p> Please visit  <a href="https://www.digbethdiningclub.com/" target="blank">Digbeth Dining Club's website</a> for tickets. </p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-	</div>
-	<!--  End of Row 3 2 column Start of Footer  -->
-    
-
-<footer class="sticky-bottom">
+ 
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div><hr>
+     </section>   
+	<!----------------------------------------End of Row 3 2 column Start of Footer-------------------------------------->
+	<footer class="sticky-bottom">
 		<div class="bg-grey row">
 			<div class="col-4 text-right social-networks">
 				<a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -246,7 +263,7 @@ Within just a year of starting, Digbeth Dining Club had been voted Britain’s B
 			</div>
 		</div>
 	</footer>
-	<!--  End of Footer  -->
+	<!----------------------------------------End of Footer-------------------------------------->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
 	</script>

@@ -12,13 +12,7 @@ html,body{overflow-x: hidden;}
 
 
 
- @media only screen and (max-width: 600px), {
-  section.mobile-padding { 
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
-    margin: 0px !important;
-    }
- }
+
 /*------------------------------------Colours*/
 
 .text-white {
@@ -173,113 +167,11 @@ hr {
     border-bottom: 2px solid #939596;
  }
  
- @media only screen and (min-width: 600px), {
-  hr.mobile { 
-    width: 65%;
-    border-bottom: 0px solid #939596;}
- }
+ 
 /*------------------------------------recipe mainpage-------------------- */
 .recipe-img {
     padding: 30px;
 }
-
-.recipebtn {
-  color: rgb(41, 39, 39);
-  padding: 6px 15px 6px 15px;
-  font-size: 16px;
-  border: solid 1px;
-  border-radius: 30px;
-  margin-left: 10px;
-  background-color: rgba(247, 136, 0, 0.5);
-  
-}
-.boxed {
-    height: 480px;
-    background-color: #fff; 
-}
-
-@media only screen and (min-width: 1024px) {
-  .boxed {height: 390px;
-  }
-}
-@media only screen and (min-width: 1315px) {
-  .boxed {height: 480px;
-  }
-}
-
-.nav-tabs {
-    padding-bottom: 5px;
-}
-.nav {
-    margin-bottom: 15px;
-}
-/*------------------------------------Form-------------------------------- */
-
-.button {
-  transition-duration: 0.4s;
-}
-
-.button:hover {
-  background-color: rgba(153, 199, 165, 0.9);
-  color: white;
-}
-
-
-/*------------------------------------Scrollbar--------------------------*/
-
-::-webkit-scrollbar {
-    width: 0px;
-}
- 
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 4px rgba(193, 201, 195,0.3); 
-    border-radius: 10px;
-}
- 
-::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.5); 
-}
-
-
-/*------------------------------------Footer--------------------- */
-
-
-.footer-spacing {
-    padding: 10px;
-}
-
-.social-networks {
-  text-align: center;
-}
-
-.social-networks li {
-  display: inline;
-}
-
-.social-networks i{
-  font-size: 160%;
-  margin: 10px;
-  padding: 10px;
-  color: rgb(41, 39, 39);
-}
-
-.fbanner {
-    text-align: center;
-    
-    margin: 0;
-    padding: 10px;
-    font-size: 15px;
-    display: block;
-    height: 60px;
-}
-
-@media only screen and (max-width: 600px) {
-  footer {position: relative !important;
-  }
-}
-
-/*--------recipe page update*/
 
 .content{
   width: 450px;
@@ -353,3 +245,112 @@ hr {
     border:2px solid #fff;
     border-radius: 25px;
 }
+  
+}
+.boxed {
+    height: 480px;
+    background-color: #fff; 
+}
+
+.nav-tabs {
+    padding-bottom: 5px;
+}
+.nav {
+    margin-bottom: 15px;
+}
+/*------------------------------------Form-------------------------------- */
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: rgba(153, 199, 165, 0.9);
+  color: white;
+}
+
+
+/*------------------------------------Scrollbar--------------------------*/
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 4px rgba(193, 201, 195,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.5); 
+}
+
+
+/*------------------------------------Footer--------------------- */
+
+
+.footer-spacing {
+    padding: 10px;
+}
+
+.social-networks {
+  text-align: center;
+}
+
+.social-networks li {
+  display: inline;
+}
+
+.social-networks i{
+  font-size: 160%;
+  margin: 10px;
+  padding: 10px;
+  color: rgb(41, 39, 39);
+}
+
+.fbanner {
+    text-align: center;
+    
+    margin: 0;
+    padding: 10px;
+    font-size: 15px;
+    display: block;
+    height: 60px;
+}
+
+
+
+/*------------------------------------Media Querys-------------------------------- */
+
+
+
+
+
+@media only screen and (min-width: 1024px) {
+  .boxed {height: 390px;
+  }
+}
+@media only screen and (min-width: 1315px) {
+  .boxed {height: 480px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  footer {position: relative !important;
+  }
+}
+
+@media only screen and (min-width: 600px), {
+  hr.mobile { 
+    width: 65%;
+    border-bottom: 0px solid #939596;}
+ }
+
+  @media only screen and (max-width: 600px), {
+  section.mobile-padding { 
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    margin: 0px !important;
+    }
+ }
