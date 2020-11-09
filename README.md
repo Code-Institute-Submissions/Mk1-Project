@@ -4,7 +4,7 @@
 
 ## Deployed version
 
-https://evert-r.github.io/milestone-one
+https://sdmusic.github.io/Mk1-Project/.
 
 This site will be an ongoing page, designed with javascript elements in  mind for implementation.
 
@@ -80,6 +80,9 @@ GitHub: a code hosting platform for version control and collaboration. It lets y
 Chrome DevTools: Web developer tools built directly into the Google Chrome browser. I used these tools at every step to test the functionality of my code. https://developers.google.com/web/tools/chrome-devtools
 
 W3C Markup Validation Service Used to run all html and css code through a validation to identif if the code meets current standards and wether or not it is showing errors. https://validator.w3.org/ https://jigsaw.w3.org/css-validator/validator
+
+Git: A version control system for tracking changes in source code during software development. https://git-scm.com/
+
 
 ## Testing
 
