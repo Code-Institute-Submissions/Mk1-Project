@@ -24,14 +24,16 @@ html,body{overflow-x: hidden;}
 }
 
 .bg-teal {
-    background-color: rgba(247, 136, 0, 0.8);
+    background-color: rgba(199,233,218,1);
 }
 
 .bg-white {
     background-color: rgba(255, 255, 255, 0.4)
 }
 
-
+.bg-orange {
+    background-color: rgba(247, 136, 0, 0.8);
+}
 /*------------------------------------Header*/
 
 .banner {
@@ -75,6 +77,8 @@ html,body{overflow-x: hidden;}
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(199,233,218,0.3);
   z-index: 2;
+  border-radius: 15px; 
+
 }
 
 /*-----------------------------------------------------*/
@@ -246,8 +250,7 @@ hr {
     border:2px solid #fff;
     border-radius: 25px;
 }
-  
-}
+
 .boxed {
     height: 480px;
     background-color: #fff; 
@@ -342,13 +345,13 @@ hr {
   }
 }
 
-@media only screen and (min-width: 600px), {
+@media only screen and (min-width: 600px) {
   hr.mobile { 
     width: 65%;
     border-bottom: 0px solid #939596;}
  }
 
-  @media only screen and (max-width: 600px), {
+  @media only screen and (max-width: 600px) {
   section.mobile-padding { 
     padding-left: 1rem !important;
     padding-right: 1rem !important;
