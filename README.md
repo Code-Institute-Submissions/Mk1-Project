@@ -2,7 +2,6 @@
 
 <html>
 <head>
-	<title>Untitled</title>
 </head>
 
 <body>
@@ -48,7 +47,7 @@ This site will be an ongoing page, designed with javascript elements in  mind fo
 - [3.4 Google Fonts](#3.4-google-fonts)
 - [3.5 Gitpod](#3.5-gitpod)
 - [3.6 GitHub Repository](#3.6-github-repository)
-- [3.7 W3C Markup Validation Service](#3.7 W3C-markup-validation-service)
+- [3.7 W3C Markup Validation Service](#3.7-W3C-markup-validation-service)
 
 [**4 Testing**](#4-testing)
 - [4.1 Page Layouts](#4.1-page-layouts)
@@ -418,13 +417,6 @@ yet features numerous HTML and CSS templates for UI interface elements such as b
 Bootstrap also supports JavaScript extensions.For ease of development, Bootstrap [v4.4.1]
 (https://getbootstrap.com/docs/4.4/getting-started/introduction/) 
 is employed in several areas of the site including:
-- [Navbar](https://getbootstrap.com/docs/4.4/components/navbar/)
-- [Columns](https://getbootstrap.com/docs/4.0/layout/grid/)
-	- Recipe Page
-	- Locations Page
-    - Footer
-    - Home Page
-- [Contact Us Form](https://getbootstrap.com/docs/4.0/components/forms/)
 
 ## **3.2 Chrome DevTools**
 Web developer tools built directly into the Google Chrome browser. I used these tools at every step to test the functionality of my code.
@@ -575,16 +567,22 @@ to see how the site displays on ranging devices and their viewports, all pages, 
 
 ......................
 
-# **5 Source Code**
+# **Source Code**
 
 To make both the CSS and HTML code easier to navigate, section commenting is
 included:
 
 ### **HTML**
+
+This can be seen as:
+
 - < !-- Section Name - Start/End -->
 - < !-- Element Name - Start/End -->
 
 ### **CSS**
+
+This can be seen as:
+
 - /* Section Start/End */
 - /* Element Name - Start/End*/
 
@@ -596,19 +594,20 @@ included:
 
 # **6 Deployment**
 
-Although constructed on Gitpod, the site and all of it's code and assets areas are
-hosted on GitHub. So as to prevent the potential loss of data and to allow access to 
-all development work carried out on the site, even that not used, the two platforms
-are regularly "sync'd". This is a three part process carried out using the Terminal
-Window:
 
-1. All code is added to the temporary git directory using the [git add .] command. 
-This adds all files that have been changed.
+The site is built on Gitpod, with all source code and assets
+hosted on GitHub. This is done through the following procedure
+
+1. All files and code once saved is added to a temporary git directory using the [git add .] command. 
 
 2. "Added" files can then be committed to the git repository using the [git commit -m""] 
-command. The reason for each commit is included by way of a comment.
-3. Deployment is the final step and publishes the most up to date version to the 
-publicly available front end on GitHub pages. It's done using the [git push] command.
+command. This requires commenting for each commit allowing you to see the changes that have been made and provide
+backup points.
+
+3. The code is uploaded to the GitHub repository through the [git push] command.
+
+4. Deployment to GitHub pages is done through thte GitHub site; throught settings, then GitHub pages and settign the
+live pages URL.
 
 All versions are held on the master branch.
 
@@ -624,25 +623,55 @@ displays: python3 -m http.server
 
 # **7 Credits and Acknowledgements**
 
+#### Code snippets
+
+Snippets of code that i edited and used as examples are listed below:
+
+    - hvr-grow from: (https://ianlunn.github.io/Hover/)
+    - Navbar from: (https://getbootstrap.com/docs/4.4/components/navbar/)
+    - Columns from: (https://getbootstrap.com/docs/4.0/layout/grid/)
+    - Contact Form from: (https://getbootstrap.com/docs/4.0/components/forms/)
+    - pic-shadow adapted from: (http://www.corelangs.com/css/box/image-shadow.html)
+
+
 #### Text & Images
-Text has been written to suit site including recipes. 
+
+Nottingham food festival partial text from:
+    - https://www.visit-nottinghamshire.co.uk/whats-on/nottingham-food-festival-2020-p518471
+Digbeth Dining club partial text from:
+    - https://www.digbethdiningclub.com/
+
+Remaing text has been written to suit site including recipes. 
+
 Images are:
-	- Google Images using license free search tool, for carousell images;
-	 https://google.com/imghp?hl=EN
+	- https://pixabay.com/photos/shrewsbury-shropshire-town-3794210/
+    - https://penichecancale.com/evenement/escale-a-bangkok-13/
+    - https://bronx.com/mayoral-statement-on-the-return-of-indoor-dining/
+    - https://medium.com/@ada.foodanddrink
+    - https://www.skyhousedesigncentre.com/news-events/design-advice-for-a-modern-barn-conversion/bp111/
+    - https://windowspi.com/category/tips/
 	- Photoshoot
 	
 #### Favicon Icon
 
--Favicon icon created at; https://https://www.ionos.co.uk/tools/favicon-generator
+- Favicon icon created at; https://https://www.ionos.co.uk/tools/favicon-generator
 
 #### Videos
+
 - blinkbox Books, youtube https://youtu.be/vxF1n96cpHU
 - Digbeth Dining, youtube https://youtu.be/lVfu4ppMhmA
 
+#### Maps
+
+- https://www.google.com/maps?ll=52.947483,-1.209774&z=15&t=m&hl=en&gl=GB&mapclient=embed&cid=14036008134715578437
+- https://www.google.com/maps?ll=52.475381,-1.8826&z=15&t=m&hl=en&gl=GB&mapclient=embed&cid=8171357188219447270
+
 #### Code clarification
 Generalised issues and solutions:
+
 - https://stackoverflow.com/
 - https://www.w3schools.com/
+
 
 **Notice:** This site was created as a project and not for the intention of public domain, while 
 images and videos used are found using google search tools to be license free some may be under copyright and without premission.
