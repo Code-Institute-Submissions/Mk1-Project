@@ -523,18 +523,18 @@ to see how the site displays on ranging devices and their viewports, all pages, 
 ### **4.2.1 Header Navigation**
 - **Test 1**: Click on "Home" link in navbar
     - **Result**: Verify page navigates to "Home" page
-- **Test 2**: Click on "Schedule & Tickets" link in navbar
-    - **Result**: Verify page navigates to "Schedule & Tickets" page
-- **Test 3**: Click on "Your Journey" link in navbar
-    - **Result**: Verify page navigates to "Your Journey" page
-- **Test 4**: Click on "Crew" link in navbar
-    - **Result**: Verify page navigates to "Crew" page
-- **Test 5**: Click on "The Train" link in navbar
-    - **Result**: Verify page navigates to "The Train" page
-- **Test 6**: Click on "Gallery" link in navbar
-    - **Result**: Verify page navigates to "Gallery" page
-- **Test 7**: Click on "Contact Us" link in navbar
-    - **Result**: Verify page navigates to "Contact Us" page
+- **Test 2**: Click on "Recipes-Starters" link in navbar
+    - **Result**: Verify page navigates to "Recipe-Starters" page
+- **Test 3**: Click on "Recipes-Mains" link in navbar
+    - **Result**: Verify page navigates to "Recipes-Mains" page
+- **Test 4**: Click on "Recipes-Desserts" link in navbar
+    - **Result**: Verify page navigates to "Recipes-Desserts" page
+- **Test 5**: Click on "Contact" link in navbar
+    - **Result**: Verify page navigates to "Contact" page
+- **Test 6**: Click on "Locations" link in navbar
+    - **Result**: Verify page navigates to "Locations" page
+- **Test 7**: Click on "locations-page ids" link in navbar
+    - **Result**: Verify page navigates to "locations-page ids" page
 
 ### **4.2 Test Footer**
 
