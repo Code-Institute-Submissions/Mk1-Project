@@ -294,6 +294,7 @@ them to explore further.
 #### **Site-link**
 
 - [Weblink - Home Page ](https://sdmusic.github.io/Mk1-Project/)
+https://imgur.com/YsSYzFi
 
 ### **2.3.2 Starters**:  
 This page provides a free starter course recipe from our signature dishes
@@ -322,6 +323,7 @@ the dropdown links on the home navbar accessable on everypage.
 #### **Site-link**
 
 - [Weblink - Starters](https://sdmusic.github.io/Mk1-Project/starters.html)
+https://imgur.com/GDVcKDy
 
 ### **2.3.3 Mains**
 This page provides a free Main course recipe from our signature dishes
@@ -350,7 +352,7 @@ the dropdown links on the home navbar accessable on everypage.
 #### **Site-link**
 
 - [Weblink - Mains](https://sdmusic.github.io/Mk1-Project/mains.html)
-
+https://imgur.com/exY5qag
 ### **2.3.4 Desserts**
 This page provides a free Dessert recipe from our signature dishes
 with dish photo ingredients and method. It can also be reached the by clicking
@@ -378,6 +380,7 @@ the dropdown links on the home navbar accessable on everypage.
 #### **Site-link**
 
 - [Weblink - Desserts](https://sdmusic.github.io/Mk1-Project/desserts.html)
+https://imgur.com/2hPEjEm
 
 ### **2.3.5 Contact**
 One of the vital features of the site is the ability to conact the company.
@@ -401,6 +404,7 @@ Currently the form is static and does not have any backend features.
 #### **Site-link**
 
 - [Weblink - Contact](https://sdmusic.github.io/Mk1-Project/contact.html)
+https://imgur.com/fgVHuUk
 
 ### **2.3.6 Location**
 The location page displays upcoming events, with event location maps
