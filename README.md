@@ -596,23 +596,20 @@ to see how the site displays on ranging devices and their viewports, all pages, 
 ### **4.9 Contact Page**
 
 - **Test**: Test that fields are set as Required Fields
-    - **Test 1**: Navigate to 'Contact Us' section and click the 'Submit' button without completing
+    - **Test 1**: On 'Contact' section click the 'Submit' button without completing
     any fields.
-        - **Result**: Verify 'Field required' message is displayed for empty fields 
-            - Name
-            - Email
-            - Say what you want
+        - **Result**: Field required message is displayed for next empty field
     - **Test 2**:  Enter text into Name field and click 'Submit' button
-        - **Result**: Verify 'Field required' message is displayed for empty field (Email)
+        - **Result**: Field required message is displayed for empty field (Email)
     - **Test 3**:  Enter text into Email field and click 'Submit' button
-        - **Result**: Verify 'Field required' message is displayed for empty field (Name)
+        - **Result**: Field required message is displayed for empty field (Name)
 
 - **Test** - Test that Email field is set for email format
     - **Test 1**: Navigate to 'Contact Us' section, enter text to Name field. Enter text without 
     @ symbol to Email field.
-        - **Result**: Verify error message is displayed
+        - **Result**: Error message is displayed
     - **Test 2**: Enter text with @ symbol to Email field
-        - **Result**: Verify Form submission accepted (for test purposes the page refreshes)
+        - **Result**: Form submission accepted (The page will currently refresh as the is no back end employed)
 
 ### **4.10** Errors and fixs**
     - Bootstrap Carousel
