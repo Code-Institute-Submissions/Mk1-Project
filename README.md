@@ -86,9 +86,6 @@ Discussion is available to anyone interest in putting on a event through the mes
 There are regular open events that the site user is invited to attend throught the 
 locations page.
 
-<img src="assets/images/food-table.png" style="margin-left: 20%; margin-bottom: 25px; width: 400px;">
-
-
 ## **1.2 What is the Purpose of the Site**
 The site has a practical and a theoretical purpose:
 
