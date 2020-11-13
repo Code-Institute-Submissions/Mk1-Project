@@ -7,6 +7,7 @@
 <body>
 
 # Catering & Events by Peter Freemantle
+
 ## Deployed version
 
 https://sdmusic.github.io/Mk1-Project/.
@@ -16,12 +17,14 @@ This site will be an ongoing page, designed with javascript elements in  mind fo
 <img src="assets/images/read-me/readme-img.png" style="margin: 15px;">
 
 # **Contents**
-[**1 Introduction**](#1-introduction)
+[**1 UX**](#1-ux)
 - [1.1 What is the Site About?](#1.1-what-is-the-site-about)
 - [1.2 What is the Purpose of the Site?](#1.2-what-is-the-purpose-of-the-site)
 - [1.3 Who Built the Site and Why?](#1.3-who-built-the-site-and-why)
+- [1.4 Concept](#1.4-concept)
+- [1.5 User Stories](#1.5-user-stories)
 
-[**2 Site Content & Structure**](#2-site-content-and-structure)
+[**2 Site Content, Structure Concept and Development**](#2-site-content-structure-concept-and-development)
 - [2.1 Pages Overview](#2.1-pages-overview)
 - [2.2 Global Elements](#2.2-global-elements)
     - [2.2.1 Page Responsiveness](#2.2.1-page-responsiveness)
@@ -32,7 +35,7 @@ This site will be an ongoing page, designed with javascript elements in  mind fo
     - [2.2.6 Main Section Elements](#2.2.6-main-section-elements)
     - [2.2.7 Page Footer](#2.2.7-page-footer)
 - [2.3 - Individual Pages](#2.3-individual-pages)
-    - [2.3.1 Home Page](#2.3.1---home-page)
+    - [2.3.1 Home Page](#2.3.1-home-page)
     - [2.3.2 Starters](#2.3.2-starters)
     - [2.3.3 Mains](#2.3.3-mains)
     - [2.3.4 Desserts](#2.3.4-desserts)
@@ -41,13 +44,15 @@ This site will be an ongoing page, designed with javascript elements in  mind fo
     - [2.3.7 Photo Gallery](#2.3.7-photo-gallery)
 
 [**3 Technologies Used**](#3-technologies-used)
-- [3.1 Bootstrap](#3.1-bootstrap)
-- [3.2 Chrome DevTools](#3.2-chrome-devtools)
-- [3.3 Font Awesome](#3.3-font-awesome)
-- [3.4 Google Fonts](#3.4-google-fonts)
-- [3.5 Gitpod](#3.5-gitpod)
-- [3.6 GitHub Repository](#3.6-github-repository)
-- [3.7 W3C Markup Validation Service](#3.7-W3C-markup-validation-service)
+- [3.1 HTML or Hyper Text Markup Language](#3.1-html-or-hyper-text-markup-language)
+- [3.2 CSS or Cascading Style Sheets](#3.2-css-or-cascading-style-sheets)
+- [3.3 Bootstrap](#3.3-bootstrap)
+- [3.4 Chrome DevTools](#3.4-chrome-devtools)
+- [3.5 Font Awesome](#3.5-font-awesome)
+- [3.6 Google Fonts](#3.6-google-fonts)
+- [3.7 Gitpod](#3.7-gitpod)
+- [3.8 GitHub Repository](#3.8-github-repository)
+- [3.9 W3C Markup Validation Service](#3.9-w3c-markup-validation-service)
 
 [**4 Testing**](#4-testing)
 - [4.1 Page Layouts](#4.1-page-layouts)
@@ -69,7 +74,7 @@ This site will be an ongoing page, designed with javascript elements in  mind fo
 
 -------------------------------
 
-# **1 Introduction**
+# **1 UX**
 
 ## **1.1 What is the Site About**
 'GingerNut Catering' is a private ccatering company based in shroipshire.
@@ -94,7 +99,11 @@ is to create a predominatly css and html focus, With a view to allow further dev
 is constructed with Bootstrap as a partial base with custom css overlaying to show a understanding of both elements.
 
 ### **Theoretical**
-1. **New Clients**: The site is intended to provide a marketing platform,
+
+1. The goal is to provide a concise platform offering information on the services available and
+ provide a marketing platform with contact links are available for information requests and bookings.
+
+2. **New Clients**: The site is intended to provide a marketing platform,
 providing access to information on the services provided and imagery of
 the products available. The site is built on the premise that potential clients
 will already have a event in mind when coming to the site and showcasing a variety 
@@ -103,7 +112,7 @@ Aswell as providing recipes and locations of open popup events which a potential
 can further investigate the product they are looking for. The contact page provides them 
 with a non commital process to start their enquiry
 
-2. **Existing Clients**: Existing Clients will be able to keep up to date with new popup events
+3. **Existing Clients**: Existing Clients will be able to keep up to date with new popup events
 where they can join us, Keep up to date with seasonal menus and free recipes. The contact
 page provides the samae benefits to a existing client as it does to new clients.
 
@@ -113,6 +122,20 @@ Frontend Development Milestone Project",  as part of his Full-Stack Developer Di
 course from [Code Institute](https://codeinstitute.net/), through Edinburgh Napier University. He has been a part of the hospitality
 industry and a chef from 2008-2020.
 
+## **1.4 Concept**
+
+This will be a multiple pages website, home page will be an image carousel showing  the service, product and branded images. A banner with download links underneath with fixed header containing a text banner and navigation bar. Footer will be fixed at the bottom of the page with contact phone numbers and social network links.
+The header will keep the banner in both desktop and mobile. In desktop the links will keep across full screen but move to a burger icon when in mobile allowing for the content to be kept clear and visible.
+The navigation menu will contain dropdown link allowing for expansion of pages by leading to some of the page pages broken down by id tags. The nav menu will have active screens set allowing the user to know where they are in the site.
+
+The site will be fully responsive and optimized to be viewed on different screen sizes and devices.
+
+## **1.5 User Stories**
+
+As a potential event organiser  who has a rough idea of what im looking for I would want to be able to find out where I can sample the offering be able to contact the services provider to ask about the request that I have.
+I would also be looking to see images of what was on offer and to keep up to date with any upcoming events I could attend.
+It needs to be straight forward so I do not feel out of my depth and be able to see if they have the services I am looking for that would be identifiable after entering the website off a google search.
+
 [**Back to top of Introduction**](#introduction)
 
 [⬆ Back to Contents](#contents)
@@ -120,7 +143,7 @@ industry and a chef from 2008-2020.
 ......................
 
 
-# **2 Site Content and Structure**
+# **2 Site Content, Structure Concept and Development**
 
 ## **2.1 Pages Overview**
 The website consists of six pages, accessable through the navigation bar at the top of each page.
@@ -214,6 +237,7 @@ devices and on smaller ones, with responsive img sizing:
 
 - **Clickable Media**:
 The Gallery pages includes multiple clickable media links. These take two formats:
+
     1. **Photos**: Contains link to page in a new window or download link
     2. **Videos**: Plays the video in window with option for fullscreen
     3. **Maps**: Opens a larger version of the map in a new window
@@ -265,6 +289,10 @@ them to explore further.
 
 <img src="assets/images/read-me/home-page-mobile.png" style="margin: 15px;">
 
+#### **Tablet Wireframe**
+
+<img src="assets/images/read-me/tablet-home-page.png" style="margin: 15px;">
+
 #### **Site-link**
 
 - [Weblink - Home Page ](https://sdmusic.github.io/Mk1-Project/)
@@ -287,7 +315,11 @@ the dropdown links on the home navbar accessable on everypage.
 
 #### **Mobile Wireframe**
 
-<img src="assets/images/read-me/recipe-page-mobile.png" style="margin: 15px;">
+<img src="assets/images/read-me/recipe-mobile.png" style="margin: 15px;">
+
+#### **Tablet Wireframe**
+
+<img src="assets/images/read-me/tablet-recipe-page.png" style="margin: 15px;">
 
 #### **Site-link**
 
@@ -311,7 +343,11 @@ the dropdown links on the home navbar accessable on everypage.
 
 #### **Mobile Wireframe**
 
-<img src="assets/images/read-me/recipe-page-mobile.png" style="margin: 15px;">
+<img src="assets/images/read-me/recipe-mobile.png" style="margin: 15px;">
+
+#### **Tablet Wireframe**
+
+<img src="assets/images/read-me/tablet-recipe-page.png" style="margin: 15px;">
 
 #### **Site-link**
 
@@ -335,7 +371,11 @@ the dropdown links on the home navbar accessable on everypage.
 
 #### **Mobile Wireframe**
 
-<img src="assets/images/read-me/recipe-page-mobile.png" style="margin: 15px;">
+<img src="assets/images/read-me/recipe-mobile.png" style="margin: 15px;">
+
+#### **Tablet Wireframe**
+
+<img src="assets/images/read-me/tablet-recipe-page.png" style="margin: 15px;">
 
 #### **Site-link**
 
@@ -358,6 +398,7 @@ Currently the form is static and does not have any backend features.
 #### **Mobile Wireframe**
 
 <img src="assets/images/read-me/contact-mobile.png" style="margin: 15px;">
+
 
 #### **Site-link**
 
@@ -387,6 +428,10 @@ information.
 
 <img src="assets/images/read-me/locations-mobile.png" style="margin: 15px;">
 
+#### **Tablet Wireframe**
+
+<img src="assets/images/read-me/tablet-locations-page.png" style="margin: 15px;">
+
 #### **Site-link**
 
 - [Weblink - Gallery](https://sdmusic.github.io/Mk1-Project/locations.html)
@@ -411,36 +456,46 @@ This is a planned development which will be accesible through the navbar
 
 
 # **3 Technologies Used**
-## **3.1 Bootstrap** 
+
+## **3.1 HTML or Hyper Text Markup Language**
+Used to construct all the pages of this web site. For further info on this language;
+https://developer.mozilla.org/en-US/docs/Web/HTML
+
+## **3.2 CSS or Cascading Style Sheets**
+ Is used to style various elements on a web page via coloring, fonts, spacing, etc.
+ For further info, see this link; https://www.w3.org/Style/CSS/Overview.en.html
+
+## **3.3 Bootstrap** 
 Bootstrap is a potent front-end framework used to create modern websites and web apps. It's open-source and free to use, 
 yet features numerous HTML and CSS templates for UI interface elements such as buttons and forms.
 Bootstrap also supports JavaScript extensions.For ease of development, Bootstrap [v4.4.1]
 (https://getbootstrap.com/docs/4.4/getting-started/introduction/) 
 is employed in several areas of the site including:
 
-## **3.2 Chrome DevTools**
+## **3.4 Chrome DevTools**
 Web developer tools built directly into the Google Chrome browser. I used these tools at every step to test the functionality of my code.
  https://developers.google.com/web/tools/chrome-devtools
 
-## **3.3 Font Awesome**
+## **3.5 Font Awesome**
 Social media icons in footer are provided by [Font Awesome](https://fontawesome.com/icons?d=gallery) v5.11.2 
 
-## **3.4 Google Fonts**
+## **3.6 Google Fonts**
 Fonts are provided by [Google Fonts](https://fonts.google.com)
 
-## **3.5 Gitpod**
+## **3.7 Gitpod**
 An online IDE which streamlines developer workflows by providing prebuilt, collaborative development environments in your browser - powered by VS Code.
 It does not have to be installed on your PC. This website has been constructed using [Gitpod](https://gitpod.io) IDE
 
-## **3.6 GitHub Repository**
+## **3.8 GitHub Repository**
 This website is hosted on [GitHub](https://github.io)
 - **GitHub Repository**:https://github.com/SdMusic/Mk1-Project
 - **Deployed Link**: https://sdmusic.github.io/Mk1-Project/
 
-## **3.7 W3C Markup Validation Service**
+## **3.9 W3C Markup Validation Service**
  Used to run all html and css code through a validation to identify if the code meets current standards
  and wether or not it is showing errors.
  https://validator.w3.org/ https://jigsaw.w3.org/css-validator/validator
+
 
 [**Back to top of this Section**](#3-technologies-used)
 
@@ -628,7 +683,7 @@ displays: python3 -m http.server
 Snippets of code that i edited and used as examples are listed below:
 
     - hvr-grow from: (https://ianlunn.github.io/Hover/)
-    - Navbar from: (https://getbootstrap.com/docs/4.4/components/navbar/)
+    - Navs from: (https://getbootstrap.com/docs/4.0/components/navs/)
     - Columns from: (https://getbootstrap.com/docs/4.0/layout/grid/)
     - Contact Form from: (https://getbootstrap.com/docs/4.0/components/forms/)
     - pic-shadow adapted from: (http://www.corelangs.com/css/box/image-shadow.html)
@@ -650,6 +705,7 @@ Images are:
     - https://medium.com/@ada.foodanddrink
     - https://www.skyhousedesigncentre.com/news-events/design-advice-for-a-modern-barn-conversion/bp111/
     - https://windowspi.com/category/tips/
+    - https://www.shutterstock.com/image-vector/top-secret-stamp-red-round-grunge-429108769
 	- Photoshoot
 	
 #### Favicon Icon

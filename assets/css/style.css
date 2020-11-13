@@ -193,7 +193,7 @@ hr {
 
 .tab-content{
   position: relative;
-  height: 300px;
+  height: 280px;
   margin-top: -50px;
   background: #fff;
   color: #000;
@@ -223,11 +223,6 @@ hr {
     border-radius: 25px;
 }
 
-.boxed {
-    height: 480px;
-    background-color: #fff; 
-}
-
 .nav-tabs {
     padding-bottom: 5px;
 }
@@ -243,6 +238,11 @@ hr {
 .cook-time-border {
     border-right: 1px solid black;
 }
+
+.h-350 {
+    height: 350px;
+}
+
 /*------------------------------------Form-------------------------------- */
 
 .button {
