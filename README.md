@@ -65,6 +65,7 @@ This site will be an ongoing page, designed with javascript elements in  mind fo
 - [4.7 Desserts Page](#4.7-desserts-page)
 - [4.8 Mains Page](#4.8-mains-page)
 - [4.9 Contact Page](#4.9-contact-page)
+- [4.10 Erros and fixs](#4.10-errors-and-fixs)
 
 [**5 Source Code**](#5-source-code)
 
@@ -536,7 +537,7 @@ to see how the site displays on ranging devices and their viewports, all pages, 
 - **Test 7**: Click on "locations-page ids" link in navbar
     - **Result**: Verify page navigates to "locations-page ids" page
 
-### **4.2 Test Footer**
+### **4.3 Test Footer**
 
 - **Test 1**: Click on 'Facebook' icon
     - **Result**: Verify https://www.facebook.com/ opens in a new window/tab
@@ -547,7 +548,7 @@ to see how the site displays on ranging devices and their viewports, all pages, 
 - **Test 4**: Click on 'Instagram' icon
     - **Result**: Verify https://www.instagram.com/chef.gingerbeard/?hl=en opens in a new window/tab
 
-### **4.3 Home Page**
+### **4.4 Home Page**
 
 - **Test 1**: Click "Next tab" on carousel.
     - **Result**: Next carousel image is loaded
@@ -564,24 +565,24 @@ to see how the site displays on ranging devices and their viewports, all pages, 
 - **Test 7**: Click "Wedding Catering" 
     - **Result**: User is brought to window/tab containing sample menu pdf
 
-### **4.4 Starters Page**
+### **4.5 Starters Page**
 
 - **Test 1**: Tabbed window moves between tabbed content
     - **Result**: Tabbed window moves between tabbed content
 
-### **4.5 Mains Page**
+### **4.6 Mains Page**
 
  - **Test 1**: Tabbed window moves between tabbed content
     - **Result**: Tabbed window moves between tabbed content
 
 
-### **4.6 Desserts Page**
+### **4.7 Desserts Page**
 
 - **Test 1**: Tabbed window moves between tabbed content
     - **Result**: Tabbed window moves between tabbed content
 
 
-### **4.7 Locations Page**
+### **4.8 Locations Page**
 
 - **Test 1**: Tabbed windows moves between tabbed content
     - **Result**: Tabbed window moves between tabbed content
@@ -592,7 +593,7 @@ to see how the site displays on ranging devices and their viewports, all pages, 
 
 
 
-### **4.8 Contact Page**
+### **4.9 Contact Page**
 
 - **Test**: Test that fields are set as Required Fields
     - **Test 1**: Navigate to 'Contact Us' section and click the 'Submit' button without completing
@@ -613,6 +614,14 @@ to see how the site displays on ranging devices and their viewports, all pages, 
     - **Test 2**: Enter text with @ symbol to Email field
         - **Result**: Verify Form submission accepted (for test purposes the page refreshes)
 
+### **4.10** Errors and fixs**
+    - Bootstrap Carousel
+        - The responive element is not built into this class so i used a clear.gif and set my images as background URls to get around this issue.
+    - Website looked streched on larger monitors.
+        - This was dealt with by adding in css to the html and body element by adding a maximum width.
+    - Logo image for index.html did not show on deployed site
+        -This was a filepath issue which was resolved through ChromDevtools and introducing a correct file path.
+     
 [**Back to top of this Section**](#4-testing)
 
 [⬆ Back to Contents](#contents)
