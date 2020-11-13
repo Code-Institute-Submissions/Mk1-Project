@@ -177,7 +177,7 @@ hr {
   font-weight: bold;
   padding-top: 13px;
   text-align: center;
-  background:rgba(199,233,218,1);
+  background: hsl(154 36% 85% / 1);
   color: black;
   border-radius: 30px;
   height: 80px;
@@ -258,7 +258,20 @@ hr {
 /*------------------------------------Scrollbar--------------------------*/
 
 ::-webkit-scrollbar {
-    width: 0px;
+    width: 2px;
+	background-color: #F5F5F5;
+    
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 23px;
+	background-color: rgb(199,233,218,1);
+	background-image: -webkit-linear-gradient(90deg,
+											  transparent,
+											  rgba(0, 0, 0, 0.4) 50%,
+											  transparent,
+											  transparent)
 }
 /*------------------------------------Footer--------------------- */
 
