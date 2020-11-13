@@ -117,7 +117,7 @@ margin: auto;}
 /*----------banner info-----------------*/
 
 .notes{
-  background-image: url("/assets/images/logo.jpg");
+  background-image: url("assets/images/logo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
