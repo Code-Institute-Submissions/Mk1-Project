@@ -32,7 +32,7 @@ This site will be an ongoing page, designed with javascript elements in  mind fo
     - [2.2.3 Fonts](#2.2.3-fonts)
     - [2.2.4 Page Layout](#2.2.4-page-layout)
     - [2.2.5 Page Header](#2.2.5-page-header)
-    - [2.2.6 Main Section Elements](#2.2.6-main-section-elements)
+    - [2.2.6 Features](#2.2.6-features)
     - [2.2.7 Page Footer](#2.2.7-page-footer)
 - [2.3 - Individual Pages](#2.3-individual-pages)
     - [2.3.1 Home Page](#2.3.1-home-page)
@@ -65,7 +65,7 @@ This site will be an ongoing page, designed with javascript elements in  mind fo
 - [4.7 Desserts Page](#4.7-desserts-page)
 - [4.8 Mains Page](#4.8-mains-page)
 - [4.9 Contact Page](#4.9-contact-page)
-- [4.10 Erros and fixs](#4.10-errors-and-fixs)
+- [4.10 Errors and fixs](#4.10-errors-and-fixs)
 
 [**5 Source Code**](#5-source-code)
 
@@ -216,11 +216,11 @@ Clicking a link brings the user to that specific page. On large and XL devices t
 navbar is displayed as a row across the top of the page. On medium
 devices and smaller, this become a hamburger with banner across the top of the screen.
 
-3. **Banner**: The Banner is a simple text banner with the company slogan.
+3. **Banner**: The Banner is a simple text banner with the company slogan and the ability to update and show varying messages.
 
-### **2.2.7 Main Section Elements**
+### **2.2.7 Features**
 
-Each page includes at least two of the following components:
+Each page includes at least two of the following features:
 
 - **Tab Windows**:
 Tab windows are displayed on several pages to provide information about a 
@@ -231,7 +231,7 @@ A picture carousel appears on the home page. It displays horizontally on larger
 devices and on smaller ones, with responsive img sizing:
 
 - **Clickable Media**:
-The Gallery pages includes multiple clickable media links. These take two formats:
+The Locations page includes multiple clickable media links. These take three formats:
 
     1. **Photos**: Contains link to page in a new window or download link
     2. **Videos**: Plays the video in window with option for fullscreen
@@ -291,7 +291,7 @@ them to explore further.
 #### **Site-link**
 
 - [Weblink - Home Page ](https://sdmusic.github.io/Mk1-Project/)
-https://imgur.com/YsSYzFi
+- Screen capture https://imgur.com/YsSYzFi
 
 ### **2.3.2 Starters**:  
 This page provides a free starter course recipe from our signature dishes
@@ -320,7 +320,7 @@ the dropdown links on the home navbar accessable on everypage.
 #### **Site-link**
 
 - [Weblink - Starters](https://sdmusic.github.io/Mk1-Project/starters.html)
-https://imgur.com/GDVcKDy
+- Screen capture https://imgur.com/GDVcKDy
 
 ### **2.3.3 Mains**
 This page provides a free Main course recipe from our signature dishes
@@ -349,7 +349,8 @@ the dropdown links on the home navbar accessable on everypage.
 #### **Site-link**
 
 - [Weblink - Mains](https://sdmusic.github.io/Mk1-Project/mains.html)
-https://imgur.com/exY5qag
+- Screen capture https://imgur.com/exY5qag
+
 ### **2.3.4 Desserts**
 This page provides a free Dessert recipe from our signature dishes
 with dish photo ingredients and method. It can also be reached the by clicking
@@ -377,7 +378,7 @@ the dropdown links on the home navbar accessable on everypage.
 #### **Site-link**
 
 - [Weblink - Desserts](https://sdmusic.github.io/Mk1-Project/desserts.html)
-https://imgur.com/2hPEjEm
+- Screen capture https://imgur.com/2hPEjEm
 
 ### **2.3.5 Contact**
 One of the vital features of the site is the ability to conact the company.
@@ -401,7 +402,7 @@ Currently the form is static and does not have any backend features.
 #### **Site-link**
 
 - [Weblink - Contact](https://sdmusic.github.io/Mk1-Project/contact.html)
-https://imgur.com/fgVHuUk
+- Screen capture https://imgur.com/fgVHuUk
 
 ### **2.3.6 Location**
 The location page displays upcoming events, with event location maps
@@ -433,7 +434,7 @@ information.
 
 #### **Site-link**
 
-- [Weblink - Gallery](https://sdmusic.github.io/Mk1-Project/locations.html)
+- [Weblink - Loctions](https://sdmusic.github.io/Mk1-Project/locations.html)
 
 ### **2.3.7 Up comiing Gallery**
 This is a planned development which will be accesible through the navbar
