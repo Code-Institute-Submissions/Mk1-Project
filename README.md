@@ -78,10 +78,12 @@ This site will be an ongoing page, designed with javascript elements in  mind fo
 # **1 UX**
 
 ## **1.1 What is the Site About**
-'GingerNut Catering' is a private ccatering company based in shroipshire.
-It offers a range of different services, from garden parties to wedding and events catering
-and can operate nationwide. There is a variaty of preselected menes to choose from 
+'GingerNut Catering' is a private ccatering company based in shropshire.
+The site is intended to offer information on range of different catering services, from garden parties to wedding and events catering
+and can operate nationwide. There is a variaty of preselected menus to choose from 
 aswell as beening able to discuss themes and tastes to build the perfect event catering experience.
+
+The site offers the aditional incentive to revist with the recipe pages available.
 
 Discussion is available to anyone interest in putting on a event through the message feature.
 There are regular open events that the site user is invited to attend throught the 
@@ -183,14 +185,9 @@ is used to colour
     - Drop downs 
     - Tabs
 
-- **bg-grey**: Blue grey:  rgba(140, 168, 148, 0.4,)
+- **bg-grey**: Blue grey:  rgba(140, 168, 148, 0.4),  hsl(154 14% 81% / 1);
     - Banners
     - Footer icon
-
-- **Font Primary**: Light grey: #777777;
-    - Paragraphs
-    - Timeline text
-    - "Ticket" Background
 
 ### **2.2.3 Fonts**
 The Font chosen is on a asthetic basis with company imagery created to match,
