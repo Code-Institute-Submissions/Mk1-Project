@@ -1,46 +1,49 @@
 body {
-    font-family:'Courier Prime', monospace;
-    color: #777777;
-    margin: 0;
+  font-family: "Courier Prime", monospace;
+  color: #777777;
+  margin: 0;
 }
-html,body{overflow-x: hidden;
-max-width: 1400px;
-margin: auto;}
+html,
+body {
+  overflow-x: hidden;
+  max-width: 1400px;
+  margin: auto;
+}
 
 .pad-1rem {
-    padding-bottom: .5rem;
-    padding-top: .5rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
 }
-
 
 /*------------------------------------Colours*/
 
 .text-white {
-    color: #fafafa;
+  color: #fafafa;
 }
 
 .bg-grey {
-    background-color: rgba(140, 168, 148, 0.4);
+  background-color: rgba(140, 168, 148, 0.4);
+  background-color: hsl(154 14% 81% / 1);
 }
 
 .bg-teal {
-    background-color: rgba(199,233,218,1);
+  background-color: rgba(199, 233, 218, 1);
 }
 
 .bg-orange {
-    background-color: rgba(247, 136, 0, 0.8);
+  background-color: rgba(247, 136, 0, 0.8);
 }
 /*------------------------------------Header*/
 
 .banner {
-    text-align: center;
-    margin: 0;
-    font-size: 15px;
-    display: block;
+  text-align: center;
+  margin: 0;
+  font-size: 15px;
+  display: block;
 }
 .header {
-    padding: 5px;
-    margin: auto;
+  padding: 5px;
+  margin: auto;
 }
 
 /*------------------------------------Navbar*/
@@ -51,26 +54,24 @@ margin: auto;}
 }
 
 /*------------------------------------bootstrap Navbar*/
-.navbar-nav li{
-  margin-left:60px;
-  margin-right:60px;
+.navbar-nav li {
+  margin-left: 60px;
+  margin-right: 60px;
 }
-
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgba(199,233,218,0.9);
+  background-color: hsl(154deg 32% 85% / 90%);
   min-width: 200px;
   box-shadow: 0px 8px 16px 0px rgba(193, 226, 212, 0.3);
   z-index: 2;
-  border-radius: 15px; 
-
+  border-radius: 15px;
 }
 
 /*-----------------------------------------------------*/
 
-  .dropdown-content a {
+.dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -78,45 +79,49 @@ margin: auto;}
   font-size: 15px;
 }
 
-.dropdown-content a:hover {background-color: rgb(202, 219, 213);}
-
-.dropdown-content a:hover:after {
-    background-color: #777777;
-    transition: 2s;
+.dropdown-content a:hover {
+  background-color: rgb(202, 219, 213);
 }
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown-content a:hover:after {
+  background-color: #777777;
+  transition: 2s;
+}
 
-.dropdown:hover .dropbtn {color: #867f7f;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  color: #867f7f;
+}
 
 /*------------------------------------homepage body--------------------- */
 
-
 .carousel-inner {
-   overflow: hidden;
-   z-index: 3;
-    width: 100%;
+  overflow: hidden;
+  z-index: 3;
+  width: 100%;
 }
 
 .carousel-inner div img {
-   
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   overflow: hidden;
-   width: 100%;
-   max-height: 600px;
-   min-height: 400px;
-
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  max-height: 600px;
+  min-height: 400px;
 }
 
-.carousel-control-next, .carousel-control-prev {
-    z-index: 10;
+.carousel-control-next,
+.carousel-control-prev {
+  z-index: 10;
 }
 
 /*----------banner info-----------------*/
 
-.notes{
+.notes {
   background-image: url("../images/logo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -125,20 +130,20 @@ margin: auto;}
   overflow: hidden;
 }
 
-.notes div{
+.notes div {
   color: #fafafa;
-  background-color: rgba(0, 0, 0, .6);
+  background-color: rgba(0, 0, 0, 0.6);
   height: 150px;
-  vertical-align: center;  
+  vertical-align: center;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  backdrop-filter: blur(5px); 
+  backdrop-filter: blur(6px) contrast(0.3) saturate(0.6) hue-rotate(184deg)
+    brightness(1.4);
 }
 
 /*---------banner info end------------------*/
-
 
 /*------------------------------------Borders-------------------- */
 .border-ridge {
@@ -146,55 +151,54 @@ margin: auto;}
 }
 
 .border-groove {
-    border: 3px groove #fff;
+  border: 3px groove #fff;
 }
 
-hr { 
-    width: 65%;
-    border-bottom: 2px solid #939596;
- }
+hr {
+  width: 65%;
+  border-bottom: 2px solid #939596;
+}
 
- .mobile { 
-    width: 65%;
-    border-bottom: 2px solid #939596;
- }
- 
- 
+.mobile {
+  width: 65%;
+  border-bottom: 2px solid #939596;
+}
+
 /*------------------------------------recipe mainpage-------------------- */
-.content{
+.content {
   width: 450px;
   height: auto;
   margin: 0 auto;
   padding: 30px;
 }
-.nav-pills{
+.nav-pills {
   width: 450px;
 }
-.nav-item{
+.nav-item {
   width: 50%;
 }
-.nav-tabs .nav-link{
+.nav-tabs .nav-link {
   font-weight: bold;
   padding-top: 13px;
   text-align: center;
-  background: hsl(154 36% 85% / 1);
+  background: hsl(154 33% 85% / 1);
   color: black;
   border-radius: 30px;
   height: 80px;
 }
-.nav-tabs .nav-link.active{
+.nav-tabs .nav-link.active {
   background: #fff;
   color: #000;
 }
 
-.nav-pills .nav-link.active{
+.nav-pills .nav-link.active {
   background: #fff;
   color: #000;
 }
 
-.tab-content{
+.tab-content {
   position: relative;
-  height: 280px;
+  height: 290px;
   margin-top: -50px;
   background: #fff;
   color: #000;
@@ -208,7 +212,7 @@ hr {
   border-left: 1px solid rgb(231, 231, 231);
 }
 
-.tab-content button{
+.tab-content button {
   border-radius: 15px;
   width: 100px;
   margin: 0 auto;
@@ -216,31 +220,39 @@ hr {
 }
 
 .pic-shadow {
-    padding: 10px;
-    -moz-box-shadow: 10px 10px 50px #ccc;
-    -webkit-box-shadow: 10px 10px 50px #ccc;
-    box-shadow: 10px 10px 50px #ccc;
-    border-radius: 25px;
+  -moz-box-shadow: 10px 10px 50px #ccc;
+  -webkit-box-shadow: 10px 10px 50px #ccc;
+  box-shadow: 10px 10px 50px #ccc;
+  border-radius: 25px;
 }
 
+.padded-pic-shadow {
+  padding: 8px;
+  -moz-box-shadow: 10px 10px 50px #ccc;
+  -webkit-box-shadow: 10px 10px 50px #ccc;
+  box-shadow: 10px 10px 50px #ccc;
+  border-radius: 25px;
+}
+
+
 .nav-tabs {
-    padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 .nav {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .cook-time {
-    font-size: 30px;
-    text-align: center;
+  font-size: 30px;
+  text-align: center;
 }
 
 .cook-time-border {
-    border-right: 1px solid black;
+  border-right: 1px solid black;
 }
 
 .h-350 {
-    height: 350px;
+  height: 350px;
 }
 
 /*------------------------------------Form-------------------------------- */
@@ -254,26 +266,28 @@ hr {
   color: white;
 }
 
-
 /*------------------------------------Scrollbar--------------------------*/
 
 ::-webkit-scrollbar {
-    width: 2px;
-	background-color: #F5F5F5;
-    
+  width: 2px;
+  background-color: #f5f5f5;
 }
 
-::-webkit-scrollbar-thumb
-{
-	border-radius: 23px;
-	background-color: rgb(199,233,218,1);
-	background-image: -webkit-linear-gradient(90deg,transparent,rgba(0, 0, 0, 0.4) 50%,transparent,transparent)
+::-webkit-scrollbar-thumb {
+  border-radius: 23px;
+  background-color: rgb(199, 233, 218, 1);
+  background-image: -webkit-linear-gradient(
+    90deg,
+    transparent,
+    rgba(0, 0, 0, 0.4) 50%,
+    transparent,
+    transparent
+  );
 }
 /*------------------------------------Footer--------------------- */
 
-
 .footer-spacing {
-    padding: 10px;
+  padding: 10px;
 }
 
 .social-networks {
@@ -284,7 +298,7 @@ hr {
   display: inline;
 }
 
-.social-networks i{
+.social-networks i {
   font-size: 160%;
   margin: 10px;
   padding: 10px;
@@ -292,33 +306,33 @@ hr {
 }
 
 .fbanner {
-    text-align: center;
-    margin: 0;
-    padding: 10px;
-    font-size: 15px;
-    display: block;
-    height: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  font-size: 15px;
+  display: block;
+  height: 60px;
 }
-
-
 
 /*------------------------------------Media Querys-------------------------------- */
 
 @media only screen and (max-width: 600px) {
-  footer {position: relative !important;
+  footer {
+    position: relative !important;
   }
 }
 
 @media only screen and (min-width: 600px) {
-  hr.mobile { 
+  hr.mobile {
     width: 65%;
-    border-bottom: 0px solid #939596;}
- }
+    border-bottom: 0px solid #939596;
+  }
+}
 
-  @media only screen and (max-width: 600px) {
-  section.mobile-padding { 
+@media only screen and (max-width: 600px) {
+  section.mobile-padding {
     padding-left: 1rem !important;
     padding-right: 1rem !important;
     margin: 0px !important;
-    }
- }
+  }
+}

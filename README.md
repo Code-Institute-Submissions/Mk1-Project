@@ -6,7 +6,7 @@
 
 <body>
 
-# Catering & Events by Peter Freemantle
+# GingerNut Catering & Events by Peter Freemantle
 
 ## Deployed version
 
