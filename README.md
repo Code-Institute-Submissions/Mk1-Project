@@ -78,25 +78,26 @@ This site will be an ongoing page, designed with javascript elements in  mind fo
 # **1 UX**
 
 ## **1.1 What is the Site About**
-'GingerNut Catering' is a private ccatering company based in shropshire.
-The site is intended to offer information on range of different catering services, from garden parties to wedding and events catering
-and can operate nationwide. There is a variaty of preselected menus to choose from 
-aswell as beening able to discuss themes and tastes to build the perfect event catering experience.
+'Ginger Nut Catering' is a private catering company based in Shropshire.
+The site is intended to offer information on a range of different catering services, 
+from garden parties to wedding and events catering and can operate nationwide. 
+There is a variety of preselected menus to choose from as well as being able to discuss 
+themes and tastes to build the perfect event catering experience.
 
-The site offers the aditional incentive to revist with the recipe pages available.
+The site offers the additional incentive to revisit with the recipe pages available.
 
-Discussion is available to anyone interest in putting on a event through the message feature.
-There are regular open events that the site user is invited to attend throught the 
-locations page.
+Discussion is available to anyone interested in putting on an event through the message feature.
+There are regular open events that the site user is invited to attend through the locations page.
 
 ## **1.2 What is the Purpose of the Site**
 The site has a practical and a theoretical purpose:
 
 ### **Practical**
-The practical purpose of this site is to showcase my abilities as a developer and to put in to practice 
-the knowledge i have aquired over the period of my course. This site concept of this pratical application
-is to create a predominatly css and html focus, With a view to allow further development. As such the site
-is constructed with Bootstrap as a partial base with custom css overlaying to show a understanding of both elements.
+The practical purpose of this site is to showcase my abilities as a developer and 
+to put into practice the knowledge I have acquired over the period of my course.
+ This site concept of this practical application is to create a predominantly CSS and html focus,
+  With a view to allow further development. As such, the site is constructed with Bootstrap 
+as a partial base with custom CSS overlaying to show an understanding of both elements.
 
 ### **Theoretical**
 
@@ -106,15 +107,15 @@ is constructed with Bootstrap as a partial base with custom css overlaying to sh
 2. **New Clients**: The site is intended to provide a marketing platform,
 providing access to information on the services provided and imagery of
 the products available. The site is built on the premise that potential clients
-will already have a event in mind when coming to the site and showcasing a variety 
+will already have an event in mind when coming to the site and showcasing a variety 
 of events could keep 'GingerNut Catering' in mind for smaller or bigger events.
-Aswell as providing recipes and locations of open popup events which a potential client 
+As well as providing recipes and locations of open popup events which a potential client 
 can further investigate the product they are looking for. The contact page provides them 
 with a non commital process to start their enquiry
 
 3. **Existing Clients**: Existing Clients will be able to keep up to date with new popup events
 where they can join us, Keep up to date with seasonal menus and free recipes. The contact
-page provides the samae benefits to a existing client as it does to new clients.
+page provides the same benefits to a existing client as it does to new clients.
 
 ## **1.3 Who Built the Site and Why**
 This site was conceived, designed and built by Peter Freemantle for his first "User Centric 
@@ -124,17 +125,22 @@ industry and a chef from 2008-2020.
 
 ## **1.4 Concept**
 
-This will be a multiple pages website, home page will be an image carousel showing  the service, product and branded images. A banner with download links underneath with fixed header containing a text banner and navigation bar. Footer will be fixed at the bottom of the page with contact phone numbers and social network links.
-The header will keep the banner in both desktop and mobile. In desktop the links will keep across full screen but move to a burger icon when in mobile allowing for the content to be kept clear and visible.
-The navigation menu will contain dropdown link allowing for expansion of pages by leading to some of the page pages broken down by id tags. The nav menu will have active screens set allowing the user to know where they are in the site.
+This will be a multiple pages website, the home page will be an image carousel showing  the service, 
+product and branded images. A banner with download links underneath with fixed header containing a text banner and navigation bar. 
+The Footer will be fixed at the bottom of the page with contact phone numbers and social network links.
+The header will keep the banner in both desktop and mobile. In desktop the links will keep across full screen, 
+but move to a burger icon when in mobile, allowing for the content to be kept clear and visible.
+The navigation menu will contain dropdown link allowing for expansion of pages by leading to some of the page pages broken down by id tags.
+ The new menu will have active screens set, allowing the user to know where they are on the site.
 
 The site will be fully responsive and optimized to be viewed on different screen sizes and devices.
 
 ## **1.5 User Stories**
 
-As a potential event organiser  who has a rough idea of what im looking for I would want to be able to find out where I can sample the offering be able to contact the services provider to ask about the request that I have.
+As a potential event organiser  who has a rough idea of what I'm looking for I would want to be able to find out where
+ I can sample the offering be able to contact the service provider to ask about the request that I have.
 I would also be looking to see images of what was on offer and to keep up to date with any upcoming events I could attend.
-It needs to be straight forward so I do not feel out of my depth and be able to see if they have the services I am looking for that would be identifiable after entering the website off a google search.
+It needs to be straight forward so I do not feel out of my depth and be able to see if they have the services I am looking for that would be identifiable after entering the website from a google search.
 
 [**Back to top of Introduction**](#introduction)
 
@@ -242,8 +248,9 @@ The contact form allows Users to contact directly via the site.
 
 ### **2.2.8 Page Footer**
 The footer is is displayed on all pages, with identical formatting.
-It consists of a two differing colour banners background one with bg-grey consiting of social media links, and one 
-with bg-orange, consisiting of phone and fax numbers. The links that are contained in th bg-grey banner are:
+It consists of a two differing colour banner background one with big-grey, consisting of social media links,
+ and one with big-orange, consisting of phone and fax numbers.
+  The links that are contained in the bag-grey banner are:
 
 1. **facebook icon**: Links to https://www.facebook.com/
 2. **Twitter icon**: Links to https://twitter.com/
@@ -260,10 +267,9 @@ This section outlines the specifics for each page and includes a wireframe for
 each device as well as a link to the actual page.
 
 ### **2.3.1 Home Page**
-The Home Page is the landing page. It is deisgned to be aestheticly pleasing
-an show representative images giving users an glimpse of what products we offer, with clickable links for smaple menus
-and a bold header encouraging
-them to explore further.
+The Home Page is the landing page. It is designed to be aesthetically pleasing an show representative images, 
+giving users a glimpse of what products we offer, 
+with clickable links for sample menus and a bold header encouraging them to explore further.
 
 #### **Home Page Sections & Components**
 - **Header**
@@ -712,6 +718,7 @@ Images are:
     - https://www.skyhousedesigncentre.com/news-events/design-advice-for-a-modern-barn-conversion/bp111/
     - https://windowspi.com/category/tips/
     - https://www.shutterstock.com/image-vector/top-secret-stamp-red-round-grunge-429108769
+    - https://ecom-su-static-prod.wtrecom.com/content/waitrosegroceriescms/en/jcr:content/par/body/shopwindows/windowtile/4/image.wtrAdaptiveImg.jpg/1573582052032.jpg
 	- Photoshoot
 	
 #### Favicon Icon
