@@ -699,6 +699,7 @@ Snippets of code that i edited and used as examples are listed below:
     - Contact Form from: (https://getbootstrap.com/docs/4.0/components/forms/)
     - pic-shadow adapted from: (http://www.corelangs.com/css/box/image-shadow.html)
     - scrollbar inspired by https://codepen.io/SoaJenny/pen/KXvNrd
+    - Footer banner from codeinstitute loverunning.
 
 
 #### Text & Images

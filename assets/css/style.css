@@ -10,11 +10,6 @@ body {
   margin: auto;
 }
 
-.pad-1rem {
-  padding-bottom: 0.5rem;
-  padding-top: 0.5rem;
-}
-
 /*------------------------------------Colours*/
 
 .text-white {
@@ -33,6 +28,26 @@ body {
 .bg-orange {
   background-color: rgba(247, 136, 0, 0.8);
 }
+
+/*------------------------------------Borders */
+.border-ridge {
+  border: 6px ridge #36c987;
+}
+
+.border-groove {
+  border: 3px groove #fff;
+}
+
+hr {
+  width: 65%;
+  border-bottom: 2px solid #939596;
+}
+
+.mobile {
+  width: 65%;
+  border-bottom: 2px solid #939596;
+}
+
 /*------------------------------------Header*/
 
 .banner {
@@ -53,7 +68,6 @@ body {
   display: inline-block;
 }
 
-/*------------------------------------bootstrap Navbar*/
 .navbar-nav li {
   margin-left: 60px;
   margin-right: 60px;
@@ -68,8 +82,6 @@ body {
   z-index: 2;
   border-radius: 15px;
 }
-
-/*-----------------------------------------------------*/
 
 .dropdown-content a {
   color: black;
@@ -96,7 +108,7 @@ body {
   color: #867f7f;
 }
 
-/*------------------------------------homepage body--------------------- */
+/*------------------------------------home-page body */
 
 .carousel-inner {
   overflow: hidden;
@@ -119,7 +131,7 @@ body {
   z-index: 10;
 }
 
-/*----------banner info-----------------*/
+/*---------------------------Banner info*/
 
 .notes {
   background-image: url("../images/logo.jpg");
@@ -143,28 +155,9 @@ body {
     brightness(1.4);
 }
 
-/*---------banner info end------------------*/
+/*------------------------------------Recipe pages */
+/*------------------------Tabbed windows */
 
-/*------------------------------------Borders-------------------- */
-.border-ridge {
-  border: 6px ridge #36c987;
-}
-
-.border-groove {
-  border: 3px groove #fff;
-}
-
-hr {
-  width: 65%;
-  border-bottom: 2px solid #939596;
-}
-
-.mobile {
-  width: 65%;
-  border-bottom: 2px solid #939596;
-}
-
-/*------------------------------------recipe mainpage-------------------- */
 .content {
   width: 450px;
   height: auto;
@@ -196,6 +189,13 @@ hr {
   color: #000;
 }
 
+.nav-tabs {
+  padding-bottom: 5px;
+}
+.nav {
+  margin-bottom: 15px;
+}
+
 .tab-content {
   position: relative;
   height: 290px;
@@ -219,6 +219,8 @@ hr {
   float: right;
 }
 
+/*------------------Image Shadows */
+
 .pic-shadow {
   -moz-box-shadow: 10px 10px 50px #ccc;
   -webkit-box-shadow: 10px 10px 50px #ccc;
@@ -234,13 +236,7 @@ hr {
   border-radius: 25px;
 }
 
-
-.nav-tabs {
-  padding-bottom: 5px;
-}
-.nav {
-  margin-bottom: 15px;
-}
+/*------------------Cooking times */
 
 .cook-time {
   font-size: 28px;
@@ -251,11 +247,8 @@ hr {
   border-right: 1px solid black;
 }
 
-.h-340 {
-  height: 340px;
-}
 
-/*------------------------------------Form-------------------------------- */
+/*------------------------------------Form */
 
 .button {
   transition-duration: 0.4s;
@@ -266,7 +259,7 @@ hr {
   color: white;
 }
 
-/*------------------------------------Scrollbar--------------------------*/
+/*------------------------------------Scrollbar*/
 
 ::-webkit-scrollbar {
   width: 2px;
@@ -284,7 +277,7 @@ hr {
     transparent
   );
 }
-/*------------------------------------Footer--------------------- */
+/*------------------------------------Footer */
 
 .footer-spacing {
   padding: 10px;
@@ -313,8 +306,18 @@ hr {
   display: block;
   height: 60px;
 }
+/*------------------------------------Spacing */
 
-/*------------------------------------Media Querys-------------------------------- */
+.h-340 {
+  height: 340px;
+}
+
+.pad-1rem {
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+/*------------------------------------Media Querys */
 
 @media only screen and (max-width: 600px) {
   footer {
@@ -334,5 +337,11 @@ hr {
     padding-left: 1rem !important;
     padding-right: 1rem !important;
     margin: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .h-340 {
+    height: 240px;
   }
 }
