@@ -443,7 +443,7 @@ information.
 - [Weblink - Loctions](https://sdmusic.github.io/Mk1-Project/locations.html)
 
 ### **2.3.7 Up comiing Gallery**
-This is a planned development which will be accesible through the navbar
+This is a planned development which will be accesible through the navbar with the focus on being a javascript implementation.
 
 #### **Upcoming Gallery Components**
 - **Header**
@@ -704,6 +704,8 @@ Snippets of code that i edited and used as examples are listed below:
     - pic-shadow adapted from: (http://www.corelangs.com/css/box/image-shadow.html)
     - scrollbar inspired by https://codepen.io/SoaJenny/pen/KXvNrd
     - Footer banner from codeinstitute loverunning.
+    - Spacing Utilities - (https://getbootstrap.com/docs/4.0/utilities/spacing/)
+    - 
 
 
 #### Text & Images
@@ -746,6 +748,8 @@ Generalised issues and solutions:
 - https://stackoverflow.com/
 - https://www.w3schools.com/
 
+#### Readme layout
+    Readme layout design from https://github.com/CathalDolan/The-Santa-Special/blob/master/README.md
 
 **Notice:** This site was created as a project and not for the intention of public domain, while 
 images and videos used are found using google search tools to be license free some may be under copyright and without premission.
