@@ -53,6 +53,7 @@ This site will be an ongoing page, designed with javascript elements in  mind fo
 - [3.7 Gitpod](#3.7-gitpod)
 - [3.8 GitHub Repository](#3.8-github-repository)
 - [3.9 W3C Markup Validation Service](#3.9-w3c-markup-validation-service)
+- [4.0 Screenshot - Full Page Screen Capture](#4.0-screenshot-full-page-screen-capture)
 
 [**4 Testing**](#4-testing)
 - [4.1 Page Layouts](#4.1-page-layouts)
@@ -501,6 +502,10 @@ This website is hosted on [GitHub](https://github.io)
  Used to run all html and css code through a validation to identify if the code meets current standards
  and wether or not it is showing errors.
  https://validator.w3.org/ https://jigsaw.w3.org/css-validator/validator
+
+## **4.0 Screenshot - Full Page Screen Capture**
+    This is a chrome extension used to capture full screen images
+    https://chrome.google.com/webstore/detail/screenshot-full-page-scre/ejkbkgbliokmbblkklofdehalgbplkfg?hl=en
 
 
 [**Back to top of this Section**](#3-technologies-used)
