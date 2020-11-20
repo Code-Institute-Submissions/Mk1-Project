@@ -172,7 +172,7 @@ For the purposes of consistency an ux design, elements are repeated across the s
 The site responds to different screen sizes and devices, done through a mix of
 Bootstrap elements and media queries. 
 
-For ease of understanding in this doc, the following apply:
+Understanding the source code, the following apply:
 - PC = Large and XL screens
 - Tablet = Medium screens
 - Mobile = Sm and XS screens
