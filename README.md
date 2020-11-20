@@ -603,7 +603,7 @@ to see how the site displays on ranging devices and their viewports, all pages, 
 
 ### **4.9 Contact Page**
 
-- **Test**: Test that fields are set as Required Fields
+- **Test**: Test that required fields are set:
     - **Test 1**: On 'Contact' section click the 'Submit' button without completing
     any fields.
         - **Result**: Field required message is displayed for next empty field
@@ -626,6 +626,10 @@ to see how the site displays on ranging devices and their viewports, all pages, 
         - This was dealt with by adding in css to the html and body element by adding a maximum width.
     - Logo image for index.html did not show on deployed site
         -This was a filepath issue which was resolved through ChromDevtools and introducing a correct file path.
+    - Tab Windows 
+        -Matching heights for tabbed windows to oposing images caused a issue as all the windows used the same .tabbed-content css
+        this was resolved by using a inline css over ride for height.
+    - 
      
 [**Back to top of this Section**](#4-testing)
 
