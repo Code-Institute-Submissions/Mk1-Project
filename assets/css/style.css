@@ -346,3 +346,7 @@ hr {
     height: 240px;
   }
 }
+
+.hvr-grow:hover {
+    z-index: 1000;
+}
