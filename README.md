@@ -59,7 +59,7 @@ This site will be an ongoing page, designed with javascript elements in  mind fo
 - [4.1 Page Layouts](#4.1-page-layouts)
 - [4.2 Test: Header](#4.2-test-header)
     - [4.2.1 Navbar Navigation](#4.2.1-navbar-navigation)
-- [4.3 Test: Footer](#4.3-test:-footer)
+- [4.3 Test: Footer](#4.3-test-footer)
 - [4.4 Home Page](#4.4-home-page)
 - [4.5 Starters Page](#4.5-starters-page)
 - [4.6 Mains Page](#4.6-mains-page)
